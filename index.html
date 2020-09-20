@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>three.js webgl - orbit controls</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <div id="info">
+    <form id="form">
+      <select id="selectFigure">
+        <option value="cube">Cube</option>
+        <option value="sphere">Sphere</option>
+        <option value="cylinder">Cylinder</option>
+        <option value="cone">Cone</option>
+      </select>
+      <input id="scaleFigure" type="number" min="1" max="10" value="1">
+      <button>Create</button>
+    </form>
+
+    <ul class="uuid" id="uuidList"></ul>
+  </div>
+
+  <script src="three.min.js"></script>
+  <script src="OrbitControls.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>

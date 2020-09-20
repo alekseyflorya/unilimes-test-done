@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: Monospace;
+    font-size: 13px;
+    line-height: 24px;
+    overscroll-behavior: none;
+    position: relative;
+}
+canvas {
+    display: block;
+}
+#info {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    z-index: 10;
+}
+#info select,
+#info input {
+    padding: 5px;
+}
+#info button {
+    padding: 5px 10px;
+}
+.uuid {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+    list-style: none;
+}
+.uuid span {
+    color: #ffffff;
+    padding: 10px;
+}
